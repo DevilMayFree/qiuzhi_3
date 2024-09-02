@@ -1,0 +1,233 @@
+
+
+.mobile_main .job_rigth_btn a{
+  text-decoration: none;
+}
+.mobile_main{
+  overflow: hidden!important;
+  /* display: none; */
+}
+/* @media(max-width: 768px){
+  .mobile_main{
+    display: block;
+  }
+} */
+.container_link {
+   max-width: 750px; /* for most modern browsers (not IE < 8) */
+   display: block;
+   margin: 0 auto;
+   /*  overflow-x: hidden;*  20221012-因搜尋區塊多出scroll先註解*/
+}
+.container_link .closebtn{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media(max-width: 260px){
+  .container_link {
+    width: 100%;       /* for most modern browsers (not IE < 8) */
+  }
+}
+.bg_link {
+  background: #F8F8F8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.box_link {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.job_app {
+  float: left;
+  margin-left: 30px;
+}
+@media(max-width: 260px){
+  .job_app {
+    width: 48%;
+  }
+}
+ .job_app .txt-box {
+    display: inline-block;
+    height: 54px;
+    width: 200px;
+    position: absolute;
+    padding: 1px 0 0 10px;
+}
+
+.job_app .star {
+    display: flex;
+    align-items: center;
+}
+
+    .job_app .star span {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAmBAMAAABALxQTAAAAFVBMVEVMaXH4twP4twP4twP4twP4twP4twP7w8S/AAAAB3RSTlMAFv5uPpvQloUsTQAAAMFJREFUeAGE0TEOgzAMQFEXoDNiYC6/wFxxAsTADDkB5f6HqNRENXUi8TYiRfnY8lNXkjBOkuBWSeAhsYJOYiW9xO4MEqshkTbCSyIH7GLdgFasHHgmwkikZQD6OROZRG4Hxju8o/TNhbNhCqkOxaZDVKdxNnq/EjUS/A2o0PuXpyVeb9bjDWY9QSWXDQfBbtbjtWY9bM4sqfx+5yYt8wNcAFEzrGGkk5668KsFrKewPtQ3aFqh8WOnYZ+lIBQkgykAWk8rlAqcHfQAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        width: 65px;
+        background-size: 13px 12px;
+        height: 13px;
+    }
+
+    .job_app .star b {
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: var(--grey_5);
+        margin-left: 0.2rem;
+    }
+
+
+.star_icon {
+    display: flex;
+    align-items: center;
+}
+
+    .star_icon span {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAmBAMAAABALxQTAAAAFVBMVEVMaXH4twP4twP4twP4twP4twP4twP7w8S/AAAAB3RSTlMAFv5uPpvQloUsTQAAAMFJREFUeAGE0TEOgzAMQFEXoDNiYC6/wFxxAsTADDkB5f6HqNRENXUi8TYiRfnY8lNXkjBOkuBWSeAhsYJOYiW9xO4MEqshkTbCSyIH7GLdgFasHHgmwkikZQD6OROZRG4Hxju8o/TNhbNhCqkOxaZDVKdxNnq/EjUS/A2o0PuXpyVeb9bjDWY9QSWXDQfBbtbjtWY9bM4sqfx+5yYt8wNcAFEzrGGkk5668KsFrKewPtQ3aFqh8WOnYZ+lIBQkgykAWk8rlAqcHfQAAAAASUVORK5CYII=);
+        background-repeat: repeat-x;
+        width: 65px;
+        background-size: 13px 12px;
+        height: 13px;
+    }
+
+    .star_icon b {
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: var(--grey_5);
+        margin-left: 0.2rem;
+    }
+    @media(max-width:390px){
+    .job_app .txt-box{
+        width: 130px;
+        padding-top:3px;
+    }
+}
+/*@media(max-width:390px){
+  .job_app .txt-box{
+    width: 130px;
+  }
+}*/
+.job_app .txt-box h4{
+  font-size: 15px;
+}
+@media(max-width:390px){
+  .job_app .txt-box h4{
+    font-size: 13px;
+  }
+}
+.job_app .txt-box p{
+  font-size: 14px;
+  color: var(--grey_6);
+  margin-top: 2px;
+}
+@media(max-width:390px){
+  .job_app .txt-box p{
+    font-size:12px;
+    width: 101px;
+  }
+}
+.job_rigth_btn {
+  float: right;
+  height: 54px;
+}
+.job_rigth_btn .line{
+  width: 1px;
+  height: 54px;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 5px;
+}
+.job_rigth_btn .btn_link{
+    background: #1cafc6;
+    color: #fff;
+    border: 0;
+    bottom: 24px;
+    position: relative;
+    color: #fff;
+    /* -webkit-box-shadow: 0 4px 0 0 #24828e, 0 0 20px 0 rgba(71, 193, 209, 0.2);
+    box-shadow: 0 4px 0 0 #24828e, 0 0 20px 0 rgba(71, 193, 209, 0.2); */
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.925rem 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+@media(max-width: 260px){
+  .job_rigth_btn {
+    width: 48%;
+  }
+}
+.box_link img {
+  width: 58px;
+  height: 58px;
+  display: inline-block;
+  margin: 0 auto;
+}
+@media(max-width: 260px){
+  .box_link img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.closebtn::before, .closebtn::after {
+  content: '';
+  position: absolute;
+  height: 2.5px;
+  width: 20px;
+  top: 9px;
+  margin-top: -1px;
+  background: rgb(145, 145, 145);
+}
+.closebtn::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.closebtn::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/*# sourceMappingURL=style.css.map */
+
+/*includesU/mobileweb/search/header-->app下載指引使用*/
+@media(min-width: 415px) {
+    .mobile_only {
+        display: none;
+    }
+}

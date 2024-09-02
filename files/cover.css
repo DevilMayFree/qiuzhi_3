@@ -1,0 +1,823 @@
+em {
+    font-style: normal;
+    background-color: #d3f0fc;
+    color: #c00;
+}
+.block_001 .content_slick .banner {
+    height: 410px;
+}
+.block_001 .content_slick .banner .col-10.col-sm-6 {
+    margin-top: 100px;
+}
+.block_010 .content_sub_menu_frame {
+    overflow-x: auto;
+    border-bottom: 2px solid #bcdaff;
+}
+.block_004 .corp_img {
+    background-size: contain;
+}
+.contacter_info .txtFont {
+    font-size: 1.5rem;
+    word-break: keep-all;
+}
+.srh-body__result-item--loaded {
+    display: table;
+    width: 100%;
+}
+.list_table .list_header_region .list_header_group.tth_title {
+    width: 150px;
+}
+.list_table .list_header_region .list_header_group.tth_location {
+    width: 150px;
+}
+.list_table .list_card .list_td:nth-child(2) {
+    width: 250px;
+}
+.list_table .list_card .list_td:nth-child(3) {
+    width: 150px;
+}
+.list_table .list_header_region .list_header_group.tth_company {
+    /*  width: 220px;
+*/
+}
+.list_table .list_card .list_td {
+    white-space: normal;
+}
+.list_tr.list_header_region {
+    position: sticky;
+    z-index: 1;
+    background-color: #e6edf2;
+}
+.icon_custom_select_up.active {
+    background: url(../images/icon_arrow_3_up_black.svg);
+}
+.icon_custom_select_down.active {
+    background: url(../images/icon_arrow_3_down_black.svg);
+}
+.zero_result {
+    font-size: 1.9rem;
+    color: #0988cb;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+.job_video_list {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    max-width: 600px;
+}
+.video_container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.job_video_list .slick-dots li.slick-active {
+    opacity: 1;
+    width: 1.9rem;
+}
+.job_video_list .slick-dots li {
+    background: #003067;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+.video_container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.block_003 .corp_card .corp_img, .block_004 .corp_img {
+    position: relative;
+}
+.img_main {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-height: 310px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+}
+.home_searchbar {
+    top: 120px;
+}
+.tcode__panel {
+    max-height: 250px;
+    background-color: #fbfbfb;
+}
+.tcode__panel-group {
+    margin-bottom: 10px;
+    padding: 0;
+}
+.tcode__panel-item {
+    padding: 3px 12px !important;
+}
+.tcode__panel-group>li:first-child {
+    margin-bottom: 6px;
+}
+.tcode__header-title {
+    background: #fff;
+    padding: 8px;
+}
+.block_003 .corp_card .corp_img {
+    height: unset;
+    width: 100%;
+    padding-bottom: calc(175 / 360 * 100%);
+}
+.text-muted.job_item_date {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+.job_item_company {
+    color: #666666;
+}
+.ui_card_selected_filter .ui_card_info.pl-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block_009 .news_card .news_card_img::after {
+    content: "";
+    display: block;
+    padding-bottom: calc(156 / 257 * 100%);
+}
+.block_009 .content_slick .sticky_img {
+    height: unset;
+    width: 100%;
+    padding-bottom: calc(156 / 257 * 100%);
+}
+.job_item .job_item_info .job_item_detail .job_item_detail_salary {
+    color: var(--primary_4);
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.job_item .job_item_info .job_item_detail.corp_item .corp_about_info {
+    color: var(--primary_4);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+}
+.job_item .job_item_info .job_item_detail.corp_item .job_item_detail_location {
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+}
+.job_item .job_item_detail_location::after {
+    content: unset;
+}
+.job_item .job_item_info .corp_tags {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+    flex-wrap: wrap;
+}
+.job_item .job_item_info .corp_tags li {
+    display: inline-flex;
+    margin-right: 5px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.job_item .job_item_info {
+    width: 70%;
+}
+.job_item .item_data {
+    width: 270px;
+}
+.job_item .item_data .job_item_data {
+    white-space: unset;
+}
+.block_009 .content_slick .slick-dots {
+    top: 356px;
+}
+.article_footer .footer_items_group .footer_items span {
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.footer_items a {
+    display: flex;
+}
+.corp_info p {
+    word-break: break-all;
+}
+.UI_notice li {
+    margin-left: 3rem;
+    display: inline-block;
+}
+.UI_notice p {
+    display: block;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+.UI_card_company .job_item_list_logo {
+    border-radius: 6px;
+}
+.job_item .profile-image {
+    border-radius: 6px;
+}
+.corp_head .corp_logo .logo {
+    border-radius: 6px;
+}
+.UI_logo_rounded {
+    border-radius: 6px;
+}
+.UI_card_work_company .contacter_info {
+    margin-bottom: 20px;
+    max-width: unset;
+}
+.UI_card_work_info {
+    display: flex;
+    flex-direction: column;
+}
+.list4_card .ui_card_content .content_items .UI_card_work_company {
+    border-bottom: 1px solid #e2e2e2;
+    border-right: unset;
+    margin-bottom: 30px;
+}
+.corp_table .list_card .list_td.job_item_detail_industrial {
+    color: black;
+}
+.corp_table .list_card .list_td.job_item_date {
+    color: var(--primary_4);
+    text-align: center;
+}
+.corp_table .list_card .list_td:first-child {
+    width: 380px;
+}
+.corp_table .list_header_region .list_header_group.tth_company {
+    /*    width: 250px;
+*/
+}
+.job_item .card-body .job_item_description {
+    overflow-wrap: anywhere;
+}
+.corp_table .list_card .list_td.list_company span {
+    width: 350px !important;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    white-space: normal;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+.corp_table .list_card .list_company {}
+.keyword_region .job_list_view_mode .notification-topbar-button:nth-child(2) {
+    display: none !important;
+}
+.keyword_region .job_list_view_mode .notification-topbar-button {
+    margin-right: 0.5rem;
+    padding-right: 0.5rem;
+}
+.keyword_region .job_list_view_mode .notification-topbar-button:after {
+    display: none !important;
+}
+.keyword_region .job_list_view_mode .view_group {
+    display: none !important;
+}
+.data_nav_breakline {
+    border-bottom: 1px solid #CBCBCB;
+    margin-bottom: 23px;
+    display: flex;
+}
+.data_nav_breakline .UI_tabs_center {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.data_nav_breakline .UI_tabs_center a {
+    background-color: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 6px;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.8rem;
+}
+.data_nav_breakline .UI_tabs_center a.active {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 10%);
+}
+.data_nav_breakline .config {
+    display: flex;
+}
+.data_nav_breakline .notification-topbar-button {
+    margin-right: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+.data_nav_breakline span {
+    color: #505050;
+    letter-spacing: .3px;
+    font-size: 1.4rem;
+}
+.data_nav_breakline .notification-topbar-button a {
+    margin-right: 7px;
+    position: relative;
+    display: inline-flex;
+}
+.data_nav_breakline .UI_icon_filter {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-right: 0.5rem;
+}
+.data_nav_breakline .notification-topbar-button::after {
+    content: "";
+    width: 0.1rem;
+    height: 2.6rem;
+    position: absolute;
+    right: 0;
+    background: #a3a3a3;
+}
+.data_nav_breakline .view_group .icon_view.icon_view_card {
+    background-image: url(../images/icon_view_card.svg);
+}
+.data_nav_breakline .view_group .icon_view.icon_view_list {
+    background-image: url(../images/icon_view_list.svg);
+}
+.data_nav_breakline .view_group .icon_view.active {
+    opacity: 1;
+}
+.data_nav_breakline .view_group .icon_view {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center;
+    display: inline-block;
+    margin-left: 1.3rem;
+    cursor: pointer;
+    opacity: .2;
+}
+.corp_table .list_header_group.tth_time {
+    width: 100px;
+}
+.corp_table .list_header_region .list_header_group.tth_location {
+    width: 110px;
+}
+.UI_card_work .UI_card_work_info .UI_logo_rounded {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin: 10px;
+}
+.UI_card_article {
+    background-color: #bddcff;
+}
+.UI_card_work .UI_card_work_info .UI_card_work_company {
+    padding-left: unset;
+    text-align: center;
+}
+.block_001 .banner_btn {
+    margin-top: 25px;
+}
+.block_001 .content_slick .banner .content_fTitle {
+    margin-top: 30px;
+    font-size: 4.1rem;
+    line-height: 1.5;
+}
+.ui_card_company_items_mobile .items_wrapper .UI_logo_rounded {
+    border-radius: 6px;
+}
+@media (max-width: 1499px) {
+    .block_001 .content_slick .banner .content_fTitle {
+        margin-top: 50px;
+        font-size: 3.2rem;
+        line-height: 1.5;
+    }
+}
+@media (max-width: 1189px) {
+    .block_001 .content_slick .banner .content_fTitle {
+        margin-top: 80px;
+    }
+    .block_001 .content_slick .banner .content_fTitle {
+        font-size: 2.7rem;
+        line-height: 1.5;
+    }
+    .block_001 .content_slick .banner {
+        height: 375px;
+        margin-top: unset;
+    }
+    .block_009 .content_slick .slick-dots {
+        top: 271px;
+    }
+}
+@media (max-width: 1024px) {
+    .zero_result {
+        margin-top: 150px;
+    }
+}
+@media (min-width: 769px) {
+    .item__ad {
+        display: table-row;
+        margin-bottom: 18px;
+        height: 120px;
+        position: relative;
+    }
+    .item__ad-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+}
+@media (max-width: 960px) {
+    .corp_table .list_card .list_td.list_company span {
+        width: 320px !important;
+        overflow: hidden;
+        white-space: normal;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        display: inline-block !important;
+        vertical-align: middle !important;
+    }
+}
+@media (max-width:810px) {
+    .block_001 .content_slick .banner .content_fTitle {
+        margin-top: 80px;
+    }
+    .zero_result {
+        margin-top: 50px;
+    }
+    .tcode__dialog {
+        width: 600px;
+    }
+    .list_table .list_card .list_td.list_title_group .item_title {
+        white-space: unset;
+    }
+    /*  .srh-body__result-item--loaded{
+        display: block;
+    }   */
+    .list_table .list_card .td_back {
+        top: 65px;
+    }
+    .list_table .list_card.default_state .list_td {
+        background: #f0f4f7;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+    }
+    .list_table .list_card.default_state .list_td:first-child {
+        border-left: 2px solid #fff;
+    }
+    .list_table .list_card.default_state .list_td:last-child {
+        border-right: 2px solid #fff;
+    }
+    .list_table .list_card:hover .list_td {
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+    }
+    .list_table .list_card:hover .list_td:first-child {
+        border-left: 2px solid #fff;
+    }
+    .list_table .list_card:hover .list_td:last-child {
+        border-right: 2px solid #fff;
+    }
+    .block_001 .content_slick .banner .col-10.col-sm-6 {
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: unset;
+        flex: 0 0 60%;
+        max-width: 60%;
+        height: 269px;
+    }
+    .corp_table .list_card .list_td.td_m {
+        padding: 0 0 0 1.2rem;
+        display: inline-block;
+        margin-top: -1.2rem;
+    }
+    .home_searchbar {
+        top: 93px;
+    }
+    .job_item .job_item_info .job_item_detail {
+        flex-wrap: wrap;
+    }
+    .corp_table .list_card .td_back.job_item_date::before {
+        content: '職缺';
+        margin-right: 5px;
+    }
+    .corp_table .list_corp_title {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .corp_table .list_card .td_back {
+        display: inline-block;
+        position: absolute;
+        right: 100px;
+        top: 25%;
+    }
+    .corp_table .list_card.status_hit_mobile::before {
+        content: unset;
+    }
+    .corp_table .list_card .td_back.job_item_date {
+        padding: 3px 12px;
+        font-size: 1.5rem;
+        right: 100px;
+        top: 30%;
+        right: 20px;
+        z-index: 1;
+        display: inline-block;
+        border-radius: 50px;
+        background: #04aff0;
+        color: #fff;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        text-align: center;
+        width: 90px;
+        bottom: auto;
+    }
+    .corp_table .list_card .list_td.job_item_detail_industrial {
+        color: var(--primary_4);
+        padding: 0 0 0 1.2rem;
+    }
+    .corp_table .list_card .list_td:first-child {
+        width: 100%;
+        white-space: break-spaces;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .item__ad {
+        display: block;
+        margin-bottom: 18px;
+        height: auto;
+        position: relative;
+    }
+    .item__ad-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+@media (max-width: 680px) {
+    .list4_card .ui_card_content .content_items .UI_card_work_company {
+        border-bottom: unset;
+        border-right: unset;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:550px) {
+    .data_nav_breakline .view_group span {
+        display: none;
+    }
+    .data_nav_breakline .notification-topbar-button a {
+        /*display: none;*/
+    }
+    .block_001 .content_slick .banner .content_fTitle {
+        margin-top: 50px;
+    }
+    .block_001 .content_slick .banner {
+        height: 255px;
+    }
+    .corp_table .list_card .list_td.list_company span {
+        width: calc(100% - 50px) !important;
+    }
+    .corp_table .list_card .td_back.job_item_date {
+        padding: 3px 12px;
+        font-size: 1.5rem;
+        right: 100px;
+        top: 72%;
+        right: unset;
+        left: calc(42% + 23px);
+        z-index: 1;
+        display: inline-block;
+        border-radius: 50px;
+        background: #04aff0;
+        color: #fff;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        text-align: center;
+    }
+    .corp_table .list_card:after {
+        content: "";
+        border-bottom: 1px solid #E2E2E2;
+        margin-top: 10px;
+        display: block;
+    }
+    .corp_table .list_card .list_td {
+        background: unset;
+        border-top: unset;
+        border-bottom: unset;
+        white-space: nowrap;
+    }
+    .corp_table .list_card .td_back.list_setting_icon {
+        padding-bottom: 1.4rem;
+        top: 69%;
+        left: calc(42% - 23px);
+        right: unset;
+    }
+    .corp_table .list_card {
+        padding-bottom: 70px !important;
+    }
+    .corp_table .list_card .td_back {
+        bottom: unset;
+    }
+    .corp_item_info .card-title {
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .block_001 .content_slick .banner {
+        height: 313px;
+    }
+    .block_001 .content_slick .banner .col-10.col-sm-6 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .home_searchbar {
+        top: 68px;
+    }
+    .img_main {
+        max-height: 160px;
+    }
+    .block_004 .corp_img {
+        background-size: contain;
+        /* padding-bottom: calc( 160 / 218 * 100%); */
+        min-height: 90px;
+        background-position: left;
+    }
+    .block_004 .corp_card {
+        min-height: 0px;
+    }
+    .block_009 .content_slick .slick-dots {
+        top: 235px;
+    }
+    .job_item .item_data.corp_btn {
+        justify-content: center;
+    }
+    .job_item .job_item_info .corp_tags {
+        padding: 10px 0px 10px 24px;
+    }
+    .dropdown_notice_body {
+        max-height: 100%;
+        padding-bottom: 120px;
+    }
+    .dropdown_notice_foot {
+        position: absolute;
+        z-index: 101;
+    }
+}
+@media (max-width: 380px) {
+    .block_001 .content_slick .banner .content_fTitle {
+        margin-top: 30px;
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    .block_001 .content_slick .banner .col-10.col-sm-6 {
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+}
+.UI_list_dots a {
+    word-break: break-word;
+}
+@media (max-width: 550px) {
+    .job_item .item_data {
+        width: auto;
+    }
+}
+.nav_user .dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+.nav_user .dropdown-toggle .nav_user_icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+}
+.nav_user .dropdown-toggle .user_info_name {
+    margin: 0 0 0 0.8rem;
+    max-width: 6.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.nav_right .nav_user .dropdown-toggle:hover {
+    border-bottom: 2px solid transparent;
+}
+.user_dropdown_menu {
+    padding: 0 1rem 0 0;
+}
+.user_dropdown_menu::after {
+    content: '';
+    display: inline-block;
+    background: #dee2e6;
+    width: 1px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.user_dropdown_menu .dropdown-toggle {
+    padding: 0.3rem 1rem;
+    background: #e8f6fc;
+    border-radius: 50px;
+}
+@media (max-width: 550px) {
+    .nav_right .nav_user .dropdown-toggle {
+        padding: 0;
+    }
+    .nav_user .dropdown-toggle .nav_user_icon {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+    .nav_user .dropdown-toggle .user_info_name, .nav_user .dropdown-toggle::after, .user_dropdown_menu::after {
+        display: none;
+    }
+    .user_dropdown_menu {
+        padding: 0;
+    }
+    .user_dropdown_menu .dropdown-toggle {
+        padding: 1.5rem 0.6rem;
+        background: transparent;
+    }
+}
+.ui_card_company {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+.ui_card_company .title_7 {
+    font-weight: 500;
+}
+.ui_card_company .body_3 {
+    color: var(--grey_5);
+}
+.ui_card_company .btn_number {
+    padding: 0.8rem 2rem;
+    margin: 0 0 0 1.5rem;
+}
+.list4_card .ui_card_content .job_description {
+    margin-top: 4rem;
+}
+
+.corp_detail .column_title{
+    width: 72px;
+    text-align-last:justify;
+    display:inline-block;
+    margin-right: 5px;
+}
+.corp_detail .column_value{
+    margin-left: 1rem;
+}
+
+.ui-widget.ui-widget-content{
+    webkit-box-shadow: 0px 2px 5px rgb(0 0 0 / 15%);
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 15%);
+    border: 1px solid #E2E2E2;
+    border-radius: 16px;
+    width: 100%;
+    /*    top: 7.4rem !important;
+*/    -webkit-transform: none !important;
+    transform: none !important;
+    padding: 2rem 0;
+    font-size: 1.6rem;
+    max-width: 640px;
+}
+@media (max-width: 810px) {
+    .ui_card_company .body_3 {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 768px) {
+    .ui_card_company {
+        margin-top: 1.5rem;
+        flex-direction: column;
+    }
+    .ui_card_company .ui_card_company_link {
+        width: 100%;
+    }
+    .ui_card_company .btn_number {
+        margin: 1.5rem 0 0 0;
+    }
+}
+@media (max-width: 1024px) and (min-width: 811px) {
+    .list_table {
+        table-layout: fixed;
+        position: relative;
+        top: 80px;
+    }
+}
+/* 搜尋頁 強力推薦 按鈕文字過長跑版調整 */
+.side_item .side_job_item .side_item_online_cv .online_cv_btn {
+    height: auto;
+    white-space: initial;
+    text-align: left;
+}
